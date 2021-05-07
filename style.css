@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: inline-grid;
+}
+
+#container div {
+  width: 20px;
+  height: 20px;
+}
+
+.bordesActivo {
+  border: 1px solid black;
+}
+
+#lapiz:checked {
+  background-color: aqua;
+}
+
+.lapiz {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  outline: none;
+  border-radius: 10px;
+  background-image: url("./img/pencil.png");
+}
+
+.goma {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  outline: none;
+  border-radius: 10px;
+  background-image: url("./img/eraser.png");
+}
+
+.botonActivo {
+  background-color: rgb(103, 194, 103);
+}
+.divInline {
+  display: inline-block;
+  margin: 20px 30px;
+}
+/*
+  #btnReiniciar{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: beige;
+    width: 110px;
+    height: 60px;
+    font-size: 1.2rem;
+  }*/
+#btnReiniciar {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#btnReiniciar:hover {
+  background-color: #3e8e41;
+}
+
+#btnReiniciar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

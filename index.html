@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel-Art</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div class="divInline">
+          <h4>Fila</h4>
+          <input type="number" min="1" required id="fila" value="20" />
+        </div>
+        <div class="divInline">
+          <h4>Columna</h4>
+          <input type="number" min="1" required id="columna" value="20" />
+        </div>
+        <div class="divInline">
+          <button id="btnReiniciar">Reiniciar</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="divInline">
+          <h4>Color de Fondo</h4>
+          <input type="color" id="color-fondo" value="#FFFFFF" />
+        </div>
+        <div class="divInline">
+          <h4>Color de Pixel</h4>
+          <input type="color" id="color-pixel" />
+        </div>
+        <div class="divInline">
+          <button class="lapiz botonActivo" id="lapiz"></button>
+          <button class="goma" id="gomaBorrar"></button>
+        </div>
+      </div>
+
+      <div class="divInline">
+        <h4>Tamaño pixel</h4>
+        <input id="tamañoPixel" type="number" value="20" />
+        <input id="mostrarBordes" type="checkbox" checked /><b
+          >Mostrar bordes</b
+        >
+      </div>
+
+      <!-- <input type="radio" id="lapiz" value="lapiz" name="herramienta" />Lapiz
+    <input type="radio" id="gomaBorrar" value="gomaBorrar" name="herramienta" />Borrar -->
+    </div>
+
+    <div id="container" class="grid-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
