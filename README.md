@@ -1,1 +1,2 @@
 # Pixel-Art-Ejercicio-ComunidadIT
+- Ejercico realizado para ComunidadIT, en donde tenemos un tablero con columnas y filas, también tenemos un Boton "Reiniciar", y dos botones adicionales que funcionan como Lápiz y Goma. La idea del ejercicio es poder crear un tablero eligiendo el color de fondo, y luego elegir un color de pixel para poder pintar el tablero. También podemos usar el borrador para ajustar detalles o deshacer cambios. Adicionalmente dos botones mas, uno para borrar bordes, y para aumentar el tamaño de nuestros pixeles.
